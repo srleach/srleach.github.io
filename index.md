@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Welcome to my Blog – There's no fixed agenda here, and things are mostly recorded for my own easy reference moving forwards.
