@@ -16,7 +16,7 @@
 title: Sean Leach
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  🚗 Where Code Meets the Road: Discover the fusion of automotive technology and programming. Uncover the ways coding enhances the driving experience and addresses practical car-related issues.
+  🚗 Where Code Meets the Road: Discover the fusion of automotive technology and programming. Uncover ways to enhance the driving experience and address practical car-related issues.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
