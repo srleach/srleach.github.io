@@ -206,7 +206,7 @@ and no container in between.
 
 A few fields remain unexplained: two maintenance counters, a manual circulation bit I have
 never seen set, and a display code whose values I can't yet map. The
-[protocol reference](https://srleach.github.io/spa2mqtt/protocol/) lists every claim with
+[protocol reference](https://seanrleach.co.uk/spa2mqtt/protocol/) lists every claim with
 its evidence and status, including the ones I'm unsure of.
 
 If you have a Balboa-family tub, encrypted or not, the capture tool and a labelled session
@@ -225,4 +225,4 @@ for the fold, the button codes and the lights map,
 for showing it could be done on an ESP32.
 
 The code is at [github.com/srleach/spa2mqtt](https://github.com/srleach/spa2mqtt), and the
-documentation is at [srleach.github.io/spa2mqtt](https://srleach.github.io/spa2mqtt/).
+documentation is at [seanrleach.co.uk/spa2mqtt](https://seanrleach.co.uk/spa2mqtt/).
