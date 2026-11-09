@@ -410,3 +410,108 @@ pre code {
     color: #e0a372;
   }
 }
+
+/* Interactive decoder (assets/js/spa-decoder.js) */
+
+.decoder {
+  margin: 0 0 1.5rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
+.decoder-samples {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.decoder-label,
+.decoder-unit {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.decoder button,
+.decoder select {
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.85rem;
+}
+
+.decoder button {
+  cursor: pointer;
+}
+
+.decoder button:hover {
+  border-color: var(--accent);
+}
+
+.decoder-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.75rem;
+  padding: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  line-height: 1.5;
+  resize: vertical;
+}
+
+.decoder-output {
+  margin-top: 0.75rem;
+}
+
+.decoder-frame {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+}
+
+.decoder-frame-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.decoder-frame dl {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 0.2rem 1rem;
+  margin: 0.5rem 0 0;
+  font-size: 0.92rem;
+}
+
+.decoder-frame dt {
+  color: var(--muted);
+}
+
+.decoder-frame dd {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.88em;
+  overflow-wrap: anywhere;
+}
+
+.decoder-empty {
+  margin: 0;
+  color: var(--muted);
+}
+
+@media (max-width: 32rem) {
+  .decoder-frame dl {
+    grid-template-columns: 1fr;
+  }
+}
