@@ -2,9 +2,9 @@
 layout: post
 title:  "CAN Bus Hacking"
 date:   2023-08-15 22:54:12 +0000
+description: "Using an ESP32 on a BMW F30's CAN bus to make steering wheel controls work with an aftermarket head unit."
 categories: automotive can bmw F30
 ---
-# CAN Bus Hacking
 Forgive the overzealous use of the word "hacking" - it's hardly that.
 
 I use a drop-in replacement head unit display for our 2013 (F30) 318d Touring. 
