@@ -5,7 +5,7 @@ description: Fractional CTO and engineering lead helping startups and scaleups a
 permalink: /about/
 ---
 
-I'm Sean, a partner at [Exadev](https://exadev.io). I work as a fractional CTO
+I'm Sean, a partner at [ExaDev](https://exadev.io). I work as a fractional CTO
 and engineering lead with startups and scaleups that need to move faster and
 get to revenue.
 
