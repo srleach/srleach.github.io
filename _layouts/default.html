@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' or page.layout == 'post' %} aria-current="page"{% endif %}>Blog</a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}</span>
+      <span class="site-footer-links">
+        <a href="https://github.com/{{ site.github_username }}" rel="me">GitHub</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </span>
+    </div>
+  </footer>
+  {%- for script in page.scripts %}
+  <script src="{{ script | relative_url }}" defer></script>
+  {%- endfor %}
+</body>
+</html>

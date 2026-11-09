@@ -1,41 +1,25 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Sean Leach
-#email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  🚗 Where Code Meets the Road: Discover the fusion of automotive technology and programming. Uncover ways to enhance the driving experience and address practical car-related issues.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username:  srleach
+tagline: Fractional CTO and engineering lead
+description: >-
+  Fractional CTO and engineering lead. I help startups and scaleups move
+  faster and get to revenue. Technical writing on the things I build.
+baseurl: ""
+url: "https://seanrleach.co.uk"
+lang: en-GB
+author:
+  name: Sean Leach
+github_username: srleach
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

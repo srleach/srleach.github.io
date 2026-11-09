@@ -1,24 +1,11 @@
 ---
 layout: default
+title: Page not found
+permalink: /404.html
+sitemap: false
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<section class="page">
+  <p class="eyebrow">404</p>
+  <h1>Page not found</h1>
+  <p class="lede">That page doesn't exist. Try the <a href="{{ '/' | relative_url }}">home page</a> or the <a href="{{ '/blog/' | relative_url }}">blog</a>.</p>
+</section>
